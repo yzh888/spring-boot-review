@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author zh_yan
  * @ClassName SpringBootController
- * @Description TODO
+ * @Description 标准的Spring Boot RESTController
  * @Date 2020/5/11
  * @Version 1.0
  **/
