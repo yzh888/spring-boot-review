@@ -17,7 +17,7 @@ import java.time.format.DateTimeFormatter;
 public class Task2 {
     private DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy年MM月dd日 HH:mm:ss");
 
-    /**
+    /***
      * fixedRate:固定频率执行
      */
     @Scheduled(fixedRate = 3000)
