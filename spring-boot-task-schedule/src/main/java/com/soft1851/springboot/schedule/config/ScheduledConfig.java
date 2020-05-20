@@ -15,16 +15,16 @@ import java.util.concurrent.Executors;
  * @Date 2020/5/14
  * @Version 1.0
  **/
-@Configuration
-public class ScheduledConfig implements SchedulingConfigurer {
-    @Override
-    public void configureTasks(ScheduledTaskRegistrar scheduledTaskRegistrar) {
-        scheduledTaskRegistrar.setScheduler(setTaskExecutors());
-    }
-
-    @Bean()
-    public Executor setTaskExecutors() {
-        //创建一个基本大小为3的线程池
-        return Executors.newScheduledThreadPool(3);
-    }
-}
+//@Configuration
+//public class ScheduledConfig implements SchedulingConfigurer {
+//    @Override
+//    public void configureTasks(ScheduledTaskRegistrar scheduledTaskRegistrar) {
+//        scheduledTaskRegistrar.setScheduler(setTaskExecutors());
+//    }
+//
+//    @Bean()
+//    public Executor setTaskExecutors() {
+//        //创建一个基本大小为3的线程池
+//        return Executors.newScheduledThreadPool(3);
+//    }
+//}
